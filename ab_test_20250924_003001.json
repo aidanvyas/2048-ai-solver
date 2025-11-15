@@ -1,0 +1,503 @@
+{
+  "test_name": "Champion (depth 3-7)_vs_Challenger (+2 depth)",
+  "timestamp": "20250924_003001",
+  "games_per_ai": 30,
+  "Champion (depth 3-7)": {
+    "results": [
+      {
+        "score": 82104,
+        "moves": 3816,
+        "max_tile": 4096,
+        "avg_move_time": 0.5825476936187666,
+        "median_move_time": 0.40866649942472577,
+        "win": true
+      },
+      {
+        "score": 58980,
+        "moves": 2721,
+        "max_tile": 4096,
+        "avg_move_time": 0.6020227428380649,
+        "median_move_time": 0.35729201044887304,
+        "win": true
+      },
+      {
+        "score": 34820,
+        "moves": 1793,
+        "max_tile": 2048,
+        "avg_move_time": 0.6352910575543531,
+        "median_move_time": 0.4297920095268637,
+        "win": true
+      },
+      {
+        "score": 55916,
+        "moves": 2527,
+        "max_tile": 4096,
+        "avg_move_time": 0.6393772359617899,
+        "median_move_time": 0.42408399167470634,
+        "win": true
+      },
+      {
+        "score": 35688,
+        "moves": 1845,
+        "max_tile": 2048,
+        "avg_move_time": 0.5149164695487052,
+        "median_move_time": 0.3169999981764704,
+        "win": true
+      },
+      {
+        "score": 14876,
+        "moves": 882,
+        "max_tile": 1024,
+        "avg_move_time": 0.6121586222533408,
+        "median_move_time": 0.35010400461032987,
+        "win": false
+      },
+      {
+        "score": 72032,
+        "moves": 3308,
+        "max_tile": 4096,
+        "avg_move_time": 0.6558268621264145,
+        "median_move_time": 0.4174375062575564,
+        "win": true
+      },
+      {
+        "score": 34096,
+        "moves": 1720,
+        "max_tile": 2048,
+        "avg_move_time": 0.5622634639388877,
+        "median_move_time": 0.3593539950088598,
+        "win": true
+      },
+      {
+        "score": 60584,
+        "moves": 2819,
+        "max_tile": 4096,
+        "avg_move_time": 0.5850904418437856,
+        "median_move_time": 0.33820800308603793,
+        "win": true
+      },
+      {
+        "score": 37204,
+        "moves": 1956,
+        "max_tile": 2048,
+        "avg_move_time": 0.7062732336650115,
+        "median_move_time": 0.4759165021823719,
+        "win": true
+      },
+      {
+        "score": 59008,
+        "moves": 2713,
+        "max_tile": 4096,
+        "avg_move_time": 0.7152155378239192,
+        "median_move_time": 0.4738749994430691,
+        "win": true
+      },
+      {
+        "score": 60736,
+        "moves": 2826,
+        "max_tile": 4096,
+        "avg_move_time": 0.51646254244492,
+        "median_move_time": 0.332645999151282,
+        "win": true
+      },
+      {
+        "score": 54668,
+        "moves": 2459,
+        "max_tile": 4096,
+        "avg_move_time": 0.5969926435221062,
+        "median_move_time": 0.3483339969534427,
+        "win": true
+      },
+      {
+        "score": 60316,
+        "moves": 2790,
+        "max_tile": 4096,
+        "avg_move_time": 0.7595221977837394,
+        "median_move_time": 0.45797899656463414,
+        "win": true
+      },
+      {
+        "score": 36212,
+        "moves": 1863,
+        "max_tile": 2048,
+        "avg_move_time": 0.7091894293662863,
+        "median_move_time": 0.4636249941540882,
+        "win": true
+      },
+      {
+        "score": 81524,
+        "moves": 3819,
+        "max_tile": 4096,
+        "avg_move_time": 0.622667325991329,
+        "median_move_time": 0.3684590046759695,
+        "win": true
+      },
+      {
+        "score": 51008,
+        "moves": 2327,
+        "max_tile": 4096,
+        "avg_move_time": 0.5869960882484357,
+        "median_move_time": 0.3555410075932741,
+        "win": true
+      },
+      {
+        "score": 35448,
+        "moves": 1832,
+        "max_tile": 2048,
+        "avg_move_time": 0.7678104452739264,
+        "median_move_time": 0.4300834989408031,
+        "win": true
+      },
+      {
+        "score": 80432,
+        "moves": 3719,
+        "max_tile": 4096,
+        "avg_move_time": 0.607813808528101,
+        "median_move_time": 0.40129199624061584,
+        "win": true
+      },
+      {
+        "score": 36632,
+        "moves": 1920,
+        "max_tile": 2048,
+        "avg_move_time": 0.500944547487355,
+        "median_move_time": 0.309124996419996,
+        "win": true
+      },
+      {
+        "score": 36424,
+        "moves": 1889,
+        "max_tile": 2048,
+        "avg_move_time": 0.5296211349801296,
+        "median_move_time": 0.3183750086463988,
+        "win": true
+      },
+      {
+        "score": 55396,
+        "moves": 2490,
+        "max_tile": 4096,
+        "avg_move_time": 0.5454734685091137,
+        "median_move_time": 0.3090620011789724,
+        "win": true
+      },
+      {
+        "score": 35356,
+        "moves": 1832,
+        "max_tile": 2048,
+        "avg_move_time": 0.5434665683312895,
+        "median_move_time": 0.32760400063125417,
+        "win": true
+      },
+      {
+        "score": 24220,
+        "moves": 1240,
+        "max_tile": 2048,
+        "avg_move_time": 0.39073384441801484,
+        "median_move_time": 0.2564585010986775,
+        "win": true
+      },
+      {
+        "score": 76616,
+        "moves": 3511,
+        "max_tile": 4096,
+        "avg_move_time": 0.5670157762324121,
+        "median_move_time": 0.3309169987915084,
+        "win": true
+      },
+      {
+        "score": 32424,
+        "moves": 1657,
+        "max_tile": 2048,
+        "avg_move_time": 0.4481204501780365,
+        "median_move_time": 0.28066600498277694,
+        "win": true
+      },
+      {
+        "score": 20752,
+        "moves": 1224,
+        "max_tile": 1024,
+        "avg_move_time": 0.49611150848101354,
+        "median_move_time": 0.31135400058701634,
+        "win": false
+      },
+      {
+        "score": 33604,
+        "moves": 1678,
+        "max_tile": 2048,
+        "avg_move_time": 0.4947422669995249,
+        "median_move_time": 0.2971039939438924,
+        "win": true
+      },
+      {
+        "score": 59020,
+        "moves": 2718,
+        "max_tile": 4096,
+        "avg_move_time": 0.5354498004807382,
+        "median_move_time": 0.3281250028521754,
+        "win": true
+      },
+      {
+        "score": 35416,
+        "moves": 1825,
+        "max_tile": 2048,
+        "avg_move_time": 0.43382335718950793,
+        "median_move_time": 0.28233400371391326,
+        "win": true
+      }
+    ],
+    "summary": {
+      "avg_score": 48383.73333333333,
+      "win_rate": 0.9333333333333333,
+      "avg_time_ms": 0.5821313521873005
+    }
+  },
+  "Challenger (+2 depth)": {
+    "results": [
+      {
+        "score": 35480,
+        "moves": 1846,
+        "max_tile": 2048,
+        "avg_move_time": 1.8642531978236339,
+        "median_move_time": 1.16739550139755,
+        "win": true
+      },
+      {
+        "score": 71632,
+        "moves": 3298,
+        "max_tile": 4096,
+        "avg_move_time": 2.100960703676026,
+        "median_move_time": 1.2060834997100756,
+        "win": true
+      },
+      {
+        "score": 60932,
+        "moves": 2855,
+        "max_tile": 4096,
+        "avg_move_time": 2.0250108347821985,
+        "median_move_time": 1.2512919929577038,
+        "win": true
+      },
+      {
+        "score": 19732,
+        "moves": 1156,
+        "max_tile": 1024,
+        "avg_move_time": 1.7455448633539015,
+        "median_move_time": 1.0965210021822713,
+        "win": false
+      },
+      {
+        "score": 60664,
+        "moves": 2834,
+        "max_tile": 4096,
+        "avg_move_time": 1.9645279268266278,
+        "median_move_time": 1.2543960037874058,
+        "win": true
+      },
+      {
+        "score": 71640,
+        "moves": 3267,
+        "max_tile": 4096,
+        "avg_move_time": 2.2195688947753878,
+        "median_move_time": 1.3377909926930442,
+        "win": true
+      },
+      {
+        "score": 36316,
+        "moves": 1889,
+        "max_tile": 2048,
+        "avg_move_time": 2.1948941993127637,
+        "median_move_time": 1.3871249975636601,
+        "win": true
+      },
+      {
+        "score": 112688,
+        "moves": 4653,
+        "max_tile": 8192,
+        "avg_move_time": 2.5009309341466253,
+        "median_move_time": 1.5677500050514936,
+        "win": true
+      },
+      {
+        "score": 80112,
+        "moves": 3734,
+        "max_tile": 4096,
+        "avg_move_time": 2.425067602256405,
+        "median_move_time": 1.5372085035778582,
+        "win": true
+      },
+      {
+        "score": 78180,
+        "moves": 3590,
+        "max_tile": 4096,
+        "avg_move_time": 2.299719060853696,
+        "median_move_time": 1.4073960046516731,
+        "win": true
+      },
+      {
+        "score": 12136,
+        "moves": 715,
+        "max_tile": 1024,
+        "avg_move_time": 1.6255440114723794,
+        "median_move_time": 1.1355840106261894,
+        "win": false
+      },
+      {
+        "score": 70168,
+        "moves": 3233,
+        "max_tile": 4096,
+        "avg_move_time": 2.277812704982186,
+        "median_move_time": 1.3773340033367276,
+        "win": true
+      },
+      {
+        "score": 60380,
+        "moves": 2791,
+        "max_tile": 4096,
+        "avg_move_time": 2.4400215935446217,
+        "median_move_time": 1.4466669963439927,
+        "win": true
+      },
+      {
+        "score": 34608,
+        "moves": 1802,
+        "max_tile": 2048,
+        "avg_move_time": 2.376854136632316,
+        "median_move_time": 1.478104000852909,
+        "win": true
+      },
+      {
+        "score": 76800,
+        "moves": 3551,
+        "max_tile": 4096,
+        "avg_move_time": 2.1928972699420117,
+        "median_move_time": 1.330749990302138,
+        "win": true
+      },
+      {
+        "score": 14644,
+        "moves": 853,
+        "max_tile": 1024,
+        "avg_move_time": 1.5276786855388933,
+        "median_move_time": 1.101417001336813,
+        "win": false
+      },
+      {
+        "score": 37192,
+        "moves": 1951,
+        "max_tile": 2048,
+        "avg_move_time": 1.8355635222056397,
+        "median_move_time": 1.2083330075256526,
+        "win": true
+      },
+      {
+        "score": 80912,
+        "moves": 3777,
+        "max_tile": 4096,
+        "avg_move_time": 2.359665219723898,
+        "median_move_time": 1.3703339936910197,
+        "win": true
+      },
+      {
+        "score": 80980,
+        "moves": 3783,
+        "max_tile": 4096,
+        "avg_move_time": 2.307345734692933,
+        "median_move_time": 1.3772910024272278,
+        "win": true
+      },
+      {
+        "score": 54844,
+        "moves": 2559,
+        "max_tile": 4096,
+        "avg_move_time": 1.9159113856511254,
+        "median_move_time": 1.265375001821667,
+        "win": true
+      },
+      {
+        "score": 79712,
+        "moves": 3663,
+        "max_tile": 4096,
+        "avg_move_time": 2.2591878307289237,
+        "median_move_time": 1.3657090021297336,
+        "win": true
+      },
+      {
+        "score": 79004,
+        "moves": 3654,
+        "max_tile": 4096,
+        "avg_move_time": 2.347528144151261,
+        "median_move_time": 1.5463749950868078,
+        "win": true
+      },
+      {
+        "score": 36224,
+        "moves": 1862,
+        "max_tile": 2048,
+        "avg_move_time": 2.0276904252675263,
+        "median_move_time": 1.2832084903493524,
+        "win": true
+      },
+      {
+        "score": 55412,
+        "moves": 2583,
+        "max_tile": 4096,
+        "avg_move_time": 2.174149549574457,
+        "median_move_time": 1.2940419983351603,
+        "win": true
+      },
+      {
+        "score": 79808,
+        "moves": 3674,
+        "max_tile": 4096,
+        "avg_move_time": 2.2913839685589696,
+        "median_move_time": 1.3898959950893186,
+        "win": true
+      },
+      {
+        "score": 113056,
+        "moves": 4680,
+        "max_tile": 8192,
+        "avg_move_time": 2.3429052128674686,
+        "median_move_time": 1.4377495026565157,
+        "win": true
+      },
+      {
+        "score": 72448,
+        "moves": 3371,
+        "max_tile": 4096,
+        "avg_move_time": 2.3301702485995777,
+        "median_move_time": 1.382875008857809,
+        "win": true
+      },
+      {
+        "score": 69932,
+        "moves": 3190,
+        "max_tile": 4096,
+        "avg_move_time": 2.1732998372958447,
+        "median_move_time": 1.3443749994621612,
+        "win": true
+      },
+      {
+        "score": 59916,
+        "moves": 2793,
+        "max_tile": 4096,
+        "avg_move_time": 1.9553947110267407,
+        "median_move_time": 1.195958990138024,
+        "win": true
+      },
+      {
+        "score": 35456,
+        "moves": 1840,
+        "max_tile": 2048,
+        "avg_move_time": 2.0375821367886835,
+        "median_move_time": 1.1841039959108457,
+        "win": true
+      }
+    ],
+    "summary": {
+      "avg_score": 61033.6,
+      "win_rate": 0.9,
+      "avg_time_ms": 2.1379688182350907
+    }
+  }
+}
