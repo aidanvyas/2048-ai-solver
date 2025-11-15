@@ -8,7 +8,7 @@ name = "rust_ai_2048"
 crate-type = ["cdylib"]
 
 [dependencies]
-pyo3 = { version = "0.20", features = ["extension-module"] }
+pyo3 = { version = "0.22", features = ["extension-module"] }
 rustc-hash = "1.1"
 lazy_static = "1.4"
 rayon = "1.7"
