@@ -573,6 +573,70 @@ impl ChampionAI {
     }
 }
 
+// SharedTTChallenger - Same as ChampionAI but with persistent transposition table
+#[pyclass]
+struct SharedTTChallenger {
+    tt: TranspositionTable,
+}
+
+#[pymethods]
+impl SharedTTChallenger {
+    #[new]
+    fn new() -> Self {
+        SharedTTChallenger {
+            tt: Arc::new(Mutex::new(FxHashMap::default())),
+        }
+    }
+
+    // Reset transposition table between games
+    fn reset(&mut self) {
+        self.tt.lock().clear();
+    }
+
+    fn get_best_move(&mut self, board: [[u32; 4]; 4]) -> Option<String> {
+        let bitboard = pack_board(&board);
+
+        // Same depth calculation as ChampionAI
+        let mut empty_tiles = 0u8;
+        for i in 0..16 {
+            if (bitboard >> (i * 4)) & 0xF == 0 {
+                empty_tiles += 1;
+            }
+        }
+
+        let depth = match empty_tiles {
+            0..=2 => 7,  // Deep endgame
+            3..=4 => 6,  // Deep late game
+            5..=6 => 5,  // Deep mid game
+            7..=9 => 4,  // Mid game
+            _ => 3,      // Early game
+        };
+
+        let moves = ["up", "down", "left", "right"];
+
+        // Parallel evaluation but SHARED TT across all moves
+        let tt_ref = Arc::clone(&self.tt);
+        let results: Vec<_> = (0..4)
+            .into_par_iter()
+            .map(move |direction| {
+                let mut tt = Arc::clone(&tt_ref);
+                let (new_board, score_gained, changed) = execute_move(bitboard, direction as u8);
+                if changed {
+                    let value = expectimax_legacy(new_board, depth - 1, false, score_gained, &mut tt);
+                    Some((direction, value))
+                } else {
+                    None
+                }
+            })
+            .collect();
+
+        results.into_iter()
+            .filter_map(|x| x)
+            .max_by(|a, b| a.1.partial_cmp(&b.1).unwrap())
+            .map(|(dir, _)| moves[dir].to_string())
+    }
+}
+
 // Challenger AI - Slightly different depth settings for comparison
 #[pyclass]
 struct ChallengerAI {
@@ -869,6 +933,7 @@ fn calculate_smoothness_simple(grid: &[[u32; 4]; 4]) -> f64 {
 #[pymodule]
 fn rust_ai_2048(_py: Python<'_>, m: &PyModule) -> PyResult<()> {
     m.add_class::<ChampionAI>()?;
+    m.add_class::<SharedTTChallenger>()?;
     m.add_class::<ChallengerAI>()?;
     m.add_class::<SimplifiedGeniusAI>()?;
     m.add_class::<GeniusAI>()?;
